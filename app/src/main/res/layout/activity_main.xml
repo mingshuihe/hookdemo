@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Test"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Test" />
+
+    <Button
+        android:id="@+id/MD5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Test"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="MD5" />
+
+    <Button
+        android:id="@+id/SHA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MD5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="SHA" />
+
+    <Button
+        android:id="@+id/MAC"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SHA"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="MAC" />
+
+    <Button
+        android:id="@+id/DES"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MAC"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="DES" />
+
+    <Button
+        android:id="@+id/DESede"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DES"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="DESede" />
+
+    <Button
+        android:id="@+id/AES"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DESede"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="AES" />
+
+    <Button
+        android:id="@+id/RSA"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/AES"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="RSA" />
+
+    <Button
+        android:id="@+id/RSAHex"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RSA"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="RSAHex" />
+
+    <Button
+        android:id="@+id/RSASign"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="RSASign" />
+
+    <Button
+        android:id="@+id/CMD5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/RSASign"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="CMD5" />
+
+    <Button
+        android:id="@+id/CADD"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CMD5"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="CADD" />
+
+    <Button
+        android:id="@+id/ENCODE"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CADD"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="ENCODE" />
+
+    <Button
+        android:id="@+id/VPN"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ENCODE"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="10dp"
+        android:text="VPN" />
+
+</RelativeLayout>
